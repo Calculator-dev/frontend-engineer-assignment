@@ -1,0 +1,13 @@
+.button {
+    background: var(--button-background);
+    padding: 20px;
+    color: var(--text-primary);
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px;
+    height: 15px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

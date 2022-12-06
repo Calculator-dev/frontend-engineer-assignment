@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: var(--background);
+  font-family: Bozon-Regular, Arial, sans-serif;
+}
+
+:root {
+  --background: #090938;
+  --text-primary: #ffffff;
+  --button-background: #FED438;
+}
+
+[data-theme='dark'] {
+  --background: #ffffff;
+  --text-primary: #090938;
+}
