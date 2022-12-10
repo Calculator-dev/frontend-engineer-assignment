@@ -1,3 +1,5 @@
 .layout {
-    padding: 50px 150px;
+    max-width: 100%;
+    min-width: fit-content;
+    padding: 50px 50px;
 }

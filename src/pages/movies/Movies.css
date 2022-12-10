@@ -1,0 +1,10 @@
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: white;
+}
