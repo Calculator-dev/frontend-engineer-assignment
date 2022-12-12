@@ -1,16 +1,16 @@
-import { Outlet } from 'react-router';
 import Navigation from './Navigation';
+import { ReactNode } from 'react';
 import './Layout.css';
 
-export interface ILayout {}
+export interface ILayout {
+  children: ReactNode;
+}
 
-const Layout: React.FC<ILayout> = () => {
+const Layout: React.FC<ILayout> = ({ children }) => {
   return (
     <div className='layout'>
       <Navigation />
-      <main>
-        <Outlet />
-      </main>
+      {children}
     </div>
   );
 };

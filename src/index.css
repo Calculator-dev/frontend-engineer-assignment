@@ -6,8 +6,11 @@ body {
 
 :root {
   --background: #090938;
+  --white: #ffffff;
   --text-primary: #ffffff;
+  --text-secondary: #090938;
   --button-background: #FED438;
+  --button-background-secodary: #ffffff;
 }
 
 [data-theme='dark'] {
